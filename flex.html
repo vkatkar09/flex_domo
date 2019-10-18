@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FLEX BOX
+        </title>
+
+        <style>
+          div.container {
+
+              background-color:black;
+              display: flex;
+              flex-direction: row;
+              flex-wrap:wrap;
+             justify-content:flex-start; 
+             flex-basis: auto;
+
+             /* align-content: center; */
+          }
+          div.container div.item {
+
+              background-color:teal;
+              color:white;
+              order:2;
+              flex-basis: 60%;
+              margin:5px;
+            }
+
+        div.container div.item2{
+
+              background-color:green;
+              /* flex-grow: 2; */
+              order:1;
+            flex-basis: 60%;
+            flex-grow: 2;
+            margin:5px;
+        }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+         <div class="item">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         </div>
+         <div class="item2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </div>
+        <div class="item">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </div>
+    <div class="item">
+            printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </div>
+         <div class="item">
+            item5
+        </div>
+        <div class="item">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </div>
+        <div class="item">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </div>
+  
+
+        </div>
+    </body>
+</html>
